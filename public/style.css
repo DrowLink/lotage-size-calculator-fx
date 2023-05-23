@@ -50,7 +50,7 @@ button:focus {
 }
 
 p {
-    font-family: Impact, Charcoal, sans-serif;
+    /* font-family: Impact, Charcoal, sans-serif; */
     font-size: 15px;
     letter-spacing: 1.6px;
     word-spacing: 1.2px;
