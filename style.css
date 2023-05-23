@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 1;
+    padding: 1;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+body:not(img) {
+    background: #10131c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: burlywood;
+    cursor: pointer;
+
+}
+
+button:focus {
+    outline: none;
+}
+
+.box {
+    background: #212532;
+    padding: .75rem;
+    border-radius: 1rem;
+    position: fixed;
+
+}
+
+p {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1.6px;
+    word-spacing: 1.2px;
+    color: #F7F4F4;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+p#paresConYEN {
+    text-align: end;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 29px;
+    letter-spacing: 1.6px;
+    word-spacing: 1.2px;
+    color: #FFD579;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+        
+}
+
+p#paresNormales {
+    text-align: end;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 29px;
+    letter-spacing: 1.6px;
+    word-spacing: 1.2px;
+    color: #FFD579;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: uppercase;
+        
+}
+
+img {
+    display: flex;
+    justify-content: end;
+}
